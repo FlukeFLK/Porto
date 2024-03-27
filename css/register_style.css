@@ -1,0 +1,53 @@
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .page-header {   
+        margin-top: 100px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    label.control-label {
+        font-weight: bold;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .radio label {
+        font-weight: normal;
+    }
+
+    button[name="login"],
+    button[name="register"] {
+        width: 100%;
+    }
+
+    div[style="color:red;"] {
+        margin-bottom: 10px;
+    }
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+      .container {
+          margin-top: 20px;
+      }
+
+      form {
+          max-width: 100%;
+      }
+  }
+
+  @media screen and (max-width: 576px) {
+      .container {
+          margin-top: 10px;
+      }
+
+      form {
+          padding: 0 10px;
+      }
+  }
